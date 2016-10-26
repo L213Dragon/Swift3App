@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivityTblCell" rowHeight="69" id="db5-kV-ylW" userLabel="ActivityTblCell" customClass="ActivityTblCell" customModule="Inspiration" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="274"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="db5-kV-ylW" id="3qp-WS-j1i">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="273"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" id="ENB-2b-2AH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="232"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Quote-icon" id="KUp-6f-iqu">
+                                <rect key="frame" x="140" y="8" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" id="Yrz-J7-29y">
+                                <rect key="frame" x="28" y="0.0" width="265" height="232"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <state key="normal" title="Over the years, I have learned that what is important in a dress, is the woman who is wearing it!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6gj-6V-cc2">
+                        <rect key="frame" x="265" y="227" width="55" height="39"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="Upload"/>
+                        <connections>
+                            <action selector="shareFavQuoteTapped:" destination="-2" eventType="touchUpInside" id="6Xy-RL-uM1"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MTt-9O-nZW">
+                        <rect key="frame" x="216" y="227" width="55" height="39"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="Dislike"/>
+                        <connections>
+                            <action selector="statusfavTapped:" destination="-2" eventType="touchUpInside" id="rCS-0u-4Eu"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="favButton" destination="MTt-9O-nZW" id="0dK-Z5-lGb"/>
+                <outlet property="quoteButton" destination="Yrz-J7-29y" id="2VC-XZ-o0u"/>
+                <outlet property="viewBG" destination="ENB-2b-2AH" id="0hq-Zx-ssd"/>
+            </connections>
+            <point key="canvasLocation" x="915" y="-112"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Dislike" width="25" height="25"/>
+        <image name="Quote-icon" width="100" height="100"/>
+        <image name="Upload" width="25" height="25"/>
+    </resources>
+</document>

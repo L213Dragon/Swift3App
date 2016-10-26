@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>574398392593-lu4kj59ung7bb2mg6dod4sop99m730gp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.574398392593-lu4kj59ung7bb2mg6dod4sop99m730gp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB88_z30PNLmfkTBgFiuuftEKpurT8PvX4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>574398392593</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kraftwerking.inspirationalquotes</string>
+	<key>PROJECT_ID</key>
+	<string>inspirationalquotes-36f7c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>inspirationalquotes-36f7c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:574398392593:ios:880e1efb086756a0</string>
+	<key>DATABASE_URL</key>
+	<string>https://inspirationalquotes-36f7c.firebaseio.com</string>
+</dict>
+</plist>
